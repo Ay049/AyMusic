@@ -1,0 +1,7 @@
+<template name="myT">
+  <view class="mt">
+    <text>模板内容</text>
+    <text>名字: {{mingzi}}</text>
+    <text>年龄: {{age}}</text>
+  </view>
+</template>

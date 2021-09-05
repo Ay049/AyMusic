@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recommendSong/recommendSong",
+    "pages/search/search",
+    "pages/songDetail/songDetail",
+    "pages/video/video",
+    "pages/personal/personal",
+    "pages/login/login"
+  ],
+  "subpackages": [{
+    "root": "other",
+    "pages": [
+      "pages/other/other"
+    ]
+  }],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ec4141",
+    "navigationBarTitleText": "云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#ec4141",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/images/tabs/home.png",
+        "selectedIconPath": "/static/images/tabs/home-a.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "/static/images/tabs/tv.png",
+        "selectedIconPath": "/static/images/tabs/tv-a.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "/static/images/tabs/me.png",
+        "selectedIconPath": "/static/images/tabs/me-a.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

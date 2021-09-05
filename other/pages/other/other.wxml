@@ -1,0 +1,11 @@
+<!-- 组件测试 -->
+<import src="../../../template/myTemplate/myTemplate.wxml" />
+<view class="box">
+  <text>扩展学习</text>
+  <text class="mmm">非模板内容</text>
+  <template is="myT" data="{{...userInfo}}"></template>
+</view>
+
+<!-- 获取用户唯一标识 openId -->
+<text class="uid">获取用户唯一标识</text>
+<button bind:tap="handleGetOpenId">获取openId</button>
